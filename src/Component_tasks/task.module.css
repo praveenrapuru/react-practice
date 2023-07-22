@@ -1,0 +1,15 @@
+.completed {
+    color: green;
+    text-decoration: line-through
+}
+
+.yellow {
+    color: yellow;
+    
+}
+
+.red {
+    color: red;
+    
+}
+
