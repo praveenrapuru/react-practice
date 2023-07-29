@@ -11,7 +11,7 @@ function User(){
     const [user , setUser] = useState({});
     
     useEffect(() => {
-        fetch('https://crudcrud.com/api/3bbbf556e4b3426fa0e90b391a338d9a/users/' + params.user_id)
+        fetch('https://crudcrud.com/api/95dff517c849461c99d368c372d1953a/users/' + params.user_id)
            .then((res) => res.json())
            .then((data) => {
               console.log(data);

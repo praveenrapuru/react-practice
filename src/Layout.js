@@ -17,7 +17,7 @@ const Layout = () => {
                 <Link to="/ItemsList">Items</Link>
             </button>
             <button class="btn">
-                <Link to="/SingleUserList">It</Link>
+                <Link to="/UserList">Userform</Link>
             </button>
             </nav>
           

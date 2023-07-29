@@ -15,6 +15,7 @@ import Layout from './Layout';
 import UserList from './components/users/UserList';
 import User from './components/users/User';
 import Create from './components/users/Create';
+import Update from './components/users/Update';
 
 
 
@@ -37,6 +38,7 @@ root.render(
           <Route path="UserList" element={<UserList />} />
           <Route path='UserList/:user_id' element={<User/>}/>
           <Route path='Create' element = {<Create/>}/>
+          <Route path='Update' element = {<Update/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
